@@ -2,7 +2,7 @@ class App.Routers.Index extends Backbone.Router
 
   _.extend @prototype, Backbone.FrameManager
 
-  frames:
+  routes:
     ''                : App.Views.Index
 
   initialize: ->
